@@ -7,11 +7,17 @@ body {
 
 /* Navbar section */
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
-  padding: 15px 60px;
+  padding: 15px 60px;  
   background: #fff;
+  z-index: 1000;
+  box-sizing: border-box; 
 }
 
 #logo {
